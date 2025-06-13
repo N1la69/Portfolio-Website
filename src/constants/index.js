@@ -1,4 +1,4 @@
-const navLinks = [
+export const navLinks = [
   {
     name: "Work",
     link: "#work",
@@ -17,7 +17,7 @@ const navLinks = [
   },
 ];
 
-const words = [
+export const words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
@@ -28,14 +28,14 @@ const words = [
   { text: "Code", imgPath: "/images/code.svg" },
 ];
 
-const counterItems = [
+export const counterItems = [
   { value: 15, suffix: "+", label: "Years of Experience" },
   { value: 200, suffix: "+", label: "Satisfied Clients" },
   { value: 108, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
-const logoIconsList = [
+export const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-1.png",
   },
@@ -71,7 +71,7 @@ const logoIconsList = [
   },
 ];
 
-const abilities = [
+export const abilities = [
   {
     imgPath: "/images/seo.png",
     title: "Quality Focus",
@@ -89,7 +89,7 @@ const abilities = [
   },
 ];
 
-const techStackImgs = [
+export const techStackImgs = [
   {
     name: "React Developer",
     imgPath: "/images/logos/react.png",
@@ -112,7 +112,7 @@ const techStackImgs = [
   },
 ];
 
-const techStackIcons = [
+export const techStackIcons = [
   {
     name: "React Developer",
     modelPath: "/models/react_logo-transformed.glb",
@@ -145,9 +145,10 @@ const techStackIcons = [
   },
 ];
 
-const expCards = [
+export const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review:
+      "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Frontend Developer",
@@ -159,7 +160,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review:
+      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
@@ -171,7 +173,8 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review:
+      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "React Native Developer",
@@ -184,7 +187,7 @@ const expCards = [
   },
 ];
 
-const expLogos = [
+export const expLogos = [
   {
     name: "logo1",
     imgPath: "/images/logo1.png",
@@ -199,7 +202,7 @@ const expLogos = [
   },
 ];
 
-const testimonials = [
+export const testimonials = [
   {
     name: "Esther Howard",
     mentions: "@estherhoward",
@@ -244,7 +247,7 @@ const testimonials = [
   },
 ];
 
-const socialImgs = [
+export const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
@@ -262,17 +265,3 @@ const socialImgs = [
     imgPath: "/images/linkedin.png",
   },
 ];
-
-export {
-  words,
-  abilities,
-  logoIconsList,
-  counterItems,
-  expCards,
-  expLogos,
-  testimonials,
-  socialImgs,
-  techStackIcons,
-  techStackImgs,
-  navLinks,
-};
